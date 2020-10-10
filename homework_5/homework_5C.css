@@ -1,0 +1,189 @@
+/* setting background color and font color and type */
+body {
+  background-color: #f6eedb;
+  font-family: "Spectral SC", serif;
+  color: #550c18;
+}
+
+/* ensuring that the header looks the same when active and inactive */
+h1 a {
+  font-size: 48px;
+  text-decoration: none;
+  color: #550c18;
+}
+
+/* formatting text within the top right navigation bar */
+.topnav ul {
+  list-style: none;
+  text-align: center;
+}
+
+/* positioning the navigation bar */
+.topnav li {
+  font-size: 24px;
+  margin-right: 20px;
+  width: 250px;
+  float: right;
+  position: relative;
+  bottom: 95px;
+}
+
+/* ensuring that the navigation bar items looks the same when active and inactive */
+.topnav a {
+  font-size: 24px;
+  margin-right: 20px;
+  width: 250px;
+  float: right;
+  position: relative;
+  text-decoration: none;
+  color: #550c18;
+}
+
+/* formatting page header text */
+h2 {
+  text-align: left;
+  font-family: "Spectral SC", serif;
+  color: #6d454c;
+  font-weight: 700;
+}
+
+/* formatting content text */
+p {
+  font-family: "Spectral SC", serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #6d454c;
+  text-align: left;
+}
+
+/* formatting for image on the left */
+.leftbox {
+  width: 500px;
+  height: 500px;
+  border: 5px solid #bd897e;
+  float: left;
+  margin-left: 75px;
+}
+
+/* formatting 'price' text */
+.price {
+  position: absolute;
+  width: 700px;
+  height: 242px;
+  left: 650px;
+  top: 300px;
+  font-family: "Spectral SC", serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #6d454c;
+}
+
+/* creating a box housing the product description */
+.descrip {
+  position: absolute;
+  width: 650px;
+  height: 156px;
+  left: 650px;
+  top: 380px;
+  padding: 10px;
+  border: 5px solid #bd897e;
+  box-sizing: border-box;
+}
+
+/* formatting 'quantity' text */
+.quant {
+  position: absolute;
+  width: 700px;
+  height: 242px;
+  left: 650px;
+  top: 590px;
+  font-family: "Spectral SC", serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #6d454c;
+}
+
+/* formatting checkboxes for quantity */
+.quant_choices {
+  position: absolute;
+  width: 700px;
+  height: 242px;
+  left: 830px;
+  top: 595px;
+}
+
+/* formatting 'glaze' text */
+.glaze {
+  position: absolute;
+  width: 700px;
+  height: 242px;
+  left: 650px;
+  top: 660px;
+  font-family: "Spectral SC", serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #6d454c;
+}
+
+/* formatting checkboxes for glaze options */
+.glaze_choices {
+  position: absolute;
+  width: 700px;
+  height: 242px;
+  left: 830px;
+  top: 665px;
+}
+
+/* formatting 'total price' text */
+.total {
+  position: absolute;
+  width: 700px;
+  height: 242px;
+  left: 650px;
+  top: 730px;
+  font-family: "Spectral SC", serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #6d454c;
+}
+
+/* creating a box housing the total price */
+.total_price {
+  position: absolute;
+  width: 100px;
+  height: 40px;
+  left: 830px;
+  top: 730px;
+  border: 5px solid #bd897e;
+  box-sizing: border-box;
+}
+
+/* creating an 'add to cart' button */
+.add {
+  position: absolute;
+  width: 200px;
+  height: 60px;
+  left: 1100px;
+  top: 890px;
+  font-family: "Spectral SC", serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #6d454c;
+  padding: 10px;
+  border: 5px solid #bd897e;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+/* formatting for the 'back' button */
+.back {
+  position: absolute;
+  left: 40px;
+  top: 1000px;
+  font-family: "Spectral SC", serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #550c18;
+  text-align: left;
+  margin-bottom: 30px;
+}
