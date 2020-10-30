@@ -25,13 +25,12 @@
         </header>
     
     <div id="cartContainer">
-      <div><a href ="shoppingcart.html">Shopping Cart</a></div>
-      <div id="cartCount">0</div>
+        <div><a href ="shoppingcart.html">Shopping Cart</a></div>
+        <div id="cartCount">0</div>
     </div>
 
-    
     <br>
-    <div class="price"> Walnut &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $3.50 </h2>
+    <div class="price" value="Original"> Original &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $3.50 </h2>
       </div>
 
       <div class="descrip"> The walnuts add a crunch to our famous dessert!
@@ -41,46 +40,44 @@
     </div>
 
     <div id="radioquan">
-      <input type="radio" id="quantity" value="1" name="number">
-      <label>1</label>
-      <input type="radio" id="quantity" value="6" name="number">
-      <label>6</label>
-      <input type="radio" id="quantity" value="9" name="number">
-      <label>9</label>
-      <input type="radio" id="quantity" value="12" name="number">
-      <label>12</label>
-      </div>
+    <input type="radio" id="quantity" value="1" name="number">
+    <label>1</label>
+    <input type="radio" id="quantity" value="6" name="number">
+    <label>6</label>
+    <input type="radio" id="quantity" value="9" name="number">
+    <label>9</label>
+    <input type="radio" id="quantity" value="12" name="number">
+    <label>12</label>
+    </div>
     
+
     <div class="glaze"> Glaze
     </div>
-  
+
     <select id="glaze" onchange="switchImage()">
-      <option value="images/walnut(none).jpg">none</option>
-      <option value="images/walnut(sugar).jpg">sugar</option>
-      <option value="images/walnut(vanilla).jpg">vanilla</option>
-      <option value="images/walnut(choc).jpg">double chocolate</option>
+        <option value="images/walnut(none).jpg">none</option>
+        <option value="images/walnut(sugar).jpg">sugar</option>
+        <option value="images/walnut(vanilla).jpg">vanilla</option>
+        <option value="images/walnut(choc).jpg">double chocolate</option>
     </select>
+    
+    <div class="leftbox">
+        <img id="glazeImage" src="images/walnut(none).jpg" alt="original cinnabon" class="none" />
+    </div>
+    
 
-      <div class="leftbox">
-        <img id="glazeImage" src="images/walnut(none).jpg" alt="walnut" class="none"/>
+<br>
+
+            <div class="total"> Total Price
       </div>
+                  <div class="total_price"> 
+      </div>
+    
+      <input type="button" class="add" value="Add to Cart" onclick="addToCart()"> 
 
-  
-      
-  <br>
-  
-              <div class="total"> Total Price
-        </div>
-                    <div class="total_price"> 
-        </div>
-      
-        <input type="button" class="add" value="Add to Cart" onclick="addToCart()"> 
-  
-          <div class = "back"> BACK </div>
-  </html>
+        <div class = "back"> BACK </div>
+</html>
 
 
-  <div class="glaze"> Glaze
-  </div>
 
- 
+
