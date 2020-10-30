@@ -1,0 +1,111 @@
+/* setting background color and font color and type */
+body {
+  background-color: #f6f6f1;
+  font-family: "Spectral SC", serif;
+  color: #550c18;
+}
+
+/* ensuring that the header looks the same when active and inactive */
+h1 a {
+  font-size: 48px;
+  text-decoration: none;
+  color: #550c18;
+}
+
+/* formatting text within the top right navigation bar */
+.topnav ul {
+  list-style: none;
+  text-align: center;
+}
+
+/* positioning the navigation bar */
+.topnav li {
+  font-size: 24px;
+  margin-right: 20px;
+  width: 250px;
+  float: right;
+  position: relative;
+  bottom: 95px;
+}
+
+/* ensuring that the navigation bar items looks the same when active and inactive */
+.topnav a {
+  font-size: 24px;
+  margin-right: 20px;
+  width: 250px;
+  float: right;
+  position: relative;
+  text-decoration: none;
+  color: #550c18;
+}
+
+/* setting the box to a border-box style */
+* {
+  box-sizing: border-box;
+}
+
+/* setting text within the page to be vertical */
+h2 {
+  font-family: "Spectral SC", serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #6d454c;
+  padding: 0px 0px 20px 0px;
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  font-size: 36px;
+}
+
+/* setting font type and weights for text within the box */
+.row-product {
+  font-family: "Spectral SC", serif;
+  font-weight: 700;
+}
+
+/* adding padding to make sure boxes are inline */
+.row-product,
+.row-product > .column-product {
+  padding: 10px;
+}
+
+/* setting it so that there are two columns per row */
+.column-product {
+  float: left;
+  width: 50%;
+}
+
+/* adding a border to images */
+img {
+  border: 5px solid #bd897e;
+}
+
+/* creating a box around the second column so that it appears to be the same as the image */
+.prices {
+  margin-top: 10px;
+  padding: 20px;
+  border: 5px solid #bd897e;
+  float: left;
+  width: 505px;
+  height: 510px;
+}
+
+/* formatting for the text within the right box */
+p {
+  font-family: "Spectral SC", serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #6d454c;
+  text-align: center;
+  padding-top: 60px;
+}
+
+#cartContainer {
+  position: absolute;
+  top: 55px;
+  right: 80px;
+}
+
+#cartContainer a {
+  text-decoration: none;
+  color: #550c18;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bun Bun Bake Shop</title>
+        <link href="homework_6C.css" rel="stylesheet" type="text/css">
+        <script type="text/javascript" src="main.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Spectral+SC:wght@400;700&display=swap" rel="stylesheet">
+        <!-- using the Spectral font from Google fonts -->
+    </head>
+    <body>
+        <header>
+          <h1><a href ="index.html">Bun Bun</a></h1>
+          <h1><a href ="index.html">Bake Shop</a></h1>
+          <h1>
+              <div class="topnav">
+              <ul>
+                  <li class="Contact">Contact</li>
+                 <li class="FAQ">FAQ</li>
+                 <li><a href ="homework_6B.html">Products</a></li>
+                 <li><a href ="homework_6About.html">About</a></li>
+                 <!-- linking different pages within the navigation bar -->
+              </ul>
+              </div>
+            </h1>
+        </header>
+    
+    <div id="cartContainer">
+      <div><a href ="shoppingcart.html">Shopping Cart</a></div>
+      <div id="cartCount">0</div>
+    </div>
+
+    
+    <br>
+    <div class="price"> Walnut &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $3.50 </h2>
+      </div>
+
+      <div class="descrip"> The walnuts add a crunch to our famous dessert!
+    </div>
+      <br>
+        <div class="quant"> Quantity
+    </div>
+
+    <div id="radioquan">
+      <input type="radio" id="quantity" value="1" name="number">
+      <label>1</label>
+      <input type="radio" id="quantity" value="6" name="number">
+      <label>6</label>
+      <input type="radio" id="quantity" value="9" name="number">
+      <label>9</label>
+      <input type="radio" id="quantity" value="12" name="number">
+      <label>12</label>
+      </div>
+    
+    <div class="glaze"> Glaze
+    </div>
+  
+    <select id="glaze" onchange="switchImage()">
+      <option value="images/walnut(none).jpg">none</option>
+      <option value="images/walnut(sugar).jpg">sugar</option>
+      <option value="images/walnut(vanilla).jpg">vanilla</option>
+      <option value="images/walnut(choc).jpg">double chocolate</option>
+    </select>
+
+      <div class="leftbox">
+        <img id="glazeImage" src="images/walnut(none).jpg" alt="walnut" class="none"/>
+      </div>
+
+  
+      
+  <br>
+  
+              <div class="total"> Total Price
+        </div>
+                    <div class="total_price"> 
+        </div>
+      
+        <input type="button" class="add" value="Add to Cart" onclick="addToCart()"> 
+  
+          <div class = "back"> BACK </div>
+  </html>
+
+
+  <div class="glaze"> Glaze
+  </div>
+
+ 

@@ -1,0 +1,78 @@
+/* setting background color and font color and type */
+body {
+  background-color: #f6f6f1;
+  font-family: "Spectral SC", serif;
+  color: #550c18;
+}
+
+/* ensuring that the header looks the same when active and inactive */
+h1 a {
+  font-size: 48px;
+  text-decoration: none;
+  color: #550c18;
+}
+
+/* formatting text within the top right navigation bar */
+.topnav ul {
+  list-style: none;
+  text-align: center;
+}
+
+/* positioning the navigation bar */
+.topnav li {
+  font-size: 24px;
+  margin-right: 20px;
+  width: 250px;
+  float: right;
+  position: relative;
+  bottom: 95px;
+}
+
+/* ensuring that the navigation bar items looks the same when active and inactive */
+.topnav a {
+  font-size: 24px;
+  margin-right: 20px;
+  width: 250px;
+  float: right;
+  position: relative;
+  text-decoration: none;
+  color: #550c18;
+}
+
+/* formatting content text */
+p {
+  font-family: "Spectral SC", serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #550c18;
+  text-align: left;
+  padding: 20px;
+}
+
+/* formatting page header text */
+h2 {
+  text-align: center;
+  font-family: "Spectral SC", serif;
+  color: #550c18;
+  font-weight: 700;
+  border-top: 3px solid #bd897e;
+  line-height: 1px;
+  margin: 70px 0 30px;
+}
+
+/* creating a block of background color behind the h2 text so that the border-top appears to be a break in a line */
+h2 span {
+  background: #f6f6f1;
+  padding: 0px 10px;
+}
+
+#cartContainer {
+  position: absolute;
+  top: 55px;
+  right: 80px;
+}
+
+#cartContainer a {
+  text-decoration: none;
+  color: #550c18;
+}
