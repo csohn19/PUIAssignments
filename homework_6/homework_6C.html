@@ -25,13 +25,14 @@
         </header>
     
     <div id="cartContainer">
-        <div><a href ="shoppingcart.html">Shopping Cart</a></div>
+        <span style="text-decoration: none;" onclick="goToCheckoutPage()">Shopping Cart</span>
         <div id="cartCount">0</div>
     </div>
 
     <br>
-    <div class="price" value="Original"> Original &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $3.50 </h2>
-      </div>
+
+    <div id="type" class="price" value="Original"> Original &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $3.50 </h2>
+    </div>
 
       <div class="descrip"> Our most classic cinnamon bun!
     </div>
@@ -40,13 +41,13 @@
     </div>
 
     <div id="radioquan">
-    <input type="radio" id="quantity" value="1" name="number">
+    <input type="radio" id="quantity" value="1 ORIGINAL" name="number">
     <label>1</label>
-    <input type="radio" id="quantity" value="6" name="number">
+    <input type="radio" id="quantity" value="2 ORIGINAL" name="number">
     <label>6</label>
-    <input type="radio" id="quantity" value="9" name="number">
+    <input type="radio" id="quantity" value="9 ORIGINAL" name="number">
     <label>9</label>
-    <input type="radio" id="quantity" value="12" name="number">
+    <input type="radio" id="quantity" value="12 ORIGINAL" name="number">
     <label>12</label>
     </div>
     
@@ -55,11 +56,12 @@
     </div>
 
     <select id="glaze" onchange="switchImage()">
-        <option value="images/original(none).jpg">none</option>
-        <option value="images/original(sugar).jpg">sugar</option>
-        <option value="images/original(vanilla).jpg">vanilla</option>
-        <option value="images/original(choc).jpg">double chocolate</option>
+        <option value="NONE" id="images/original(none).jpg">none</option>  
+        <option value="SUGAR" id="images/original(sugar).jpg">sugar</option>
+        <option value="VANILLA" id="images/original(vanilla).jpg">vanilla</option>
+        <option value="DOUBLE CHOCOLATE" id="images/original(choc).jpg">double chocolate</option>
     </select>
+
     
     <div class="leftbox">
         <img id="glazeImage" src="images/original(none).jpg" alt="original cinnabon" class="none" />
@@ -77,6 +79,7 @@
 
         <div class = "back"> BACK </div>
 </html>
+
 
 
 
