@@ -2,19 +2,18 @@
 <html>
     <head>
     <title>Bun Bun Bake Shop</title>
-    <link href="shoppingcart.css" rel="stylesheet" type="text/css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Spectral+SC:wght@400;700&display=swap"
-      rel="stylesheet" 
-    /> 
+    <link href="shoppingcart.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="main.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Spectral+SC:wght@400;700&display=swap" rel="stylesheet">
     </head>
     
+   
     <div id="cartContainer">
         <div><a href ="shoppingcart.html">Shopping Cart</a></div>
         <div id="cartCount">0</div>
     </div>
     
-<body>
+<body onload="checkoutPageLoaded();">
     <header>
       <h1><a href ="index.html">Bun Bun</a></h1>
       <h1><a href ="index.html">Bake Shop</a></h1>
@@ -34,13 +33,11 @@
 
     <h2><span> SHOPPING CART </span></h2>
 
-    <div id="orderbox">
-      <div class="ordersummary">Order Summary</div>
-      <div class="ordercontent">Original</div>
-    </div>
+    <div id="listOfProducts"></div>
     
-   <input type="button" class="continue" value="Proceed to Checkout">
-
+   <input type="button" class="continue" value="Proceed to Checkout" onclick="addToCart()">
+   
+  
    <div class = "back"> BACK </div>
 
 </body>   
