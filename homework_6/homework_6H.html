@@ -25,7 +25,7 @@
         </header>
     
     <div id="cartContainer">
-        <div><a href ="shoppingcart.html">Shopping Cart</a></div>
+        <span style="text-decoration: none;" onclick="goToCheckoutPage()">Shopping Cart</span>
         <div id="cartCount">0</div>
     </div>
 
@@ -40,13 +40,13 @@
     </div>
 
     <div id="radioquan">
-        <input type="radio" id="quantity" value="1" name="number">
+        <input type="radio" id="quantity" value="1 PUMPKIN SPICE" name="number">
         <label>1</label>
-        <input type="radio" id="quantity" value="6" name="number">
+        <input type="radio" id="quantity" value="6 PUMPKIN SPICE" name="number">
         <label>6</label>
-        <input type="radio" id="quantity" value="9" name="number">
+        <input type="radio" id="quantity" value="9 PUMPKIN SPICE" name="number">
         <label>9</label>
-        <input type="radio" id="quantity" value="12" name="number">
+        <input type="radio" id="quantity" value="12 PUMPKIN SPICE" name="number">
         <label>12</label>
         </div>
         
@@ -55,10 +55,10 @@
         </div>
     
         <select id="glaze" onchange="switchImage()">
-            <option value="images/ps(none).jpg">none</option>
-            <option value="images/ps(sugar).jpg">sugar</option>
-            <option value="images/ps(vanilla).jpg">vanilla</option>
-            <option value="images/ps(choc).jpg">double chocolate</option>
+            <option value="NONE" id="images/ps(none).jpg">none</option>  
+            <option value="SUGAR" id="images/ps(sugar).jpg">sugar</option>
+            <option value="VANILLA" id="images/ps(vanilla).jpg">vanilla</option>
+            <option value="DOUBLE CHOCOLATE" id="images/ps(choc).jpg">double chocolate</option>
         </select>
 
         <div class="leftbox">
